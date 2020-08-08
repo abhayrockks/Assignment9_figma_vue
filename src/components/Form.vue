@@ -8,7 +8,7 @@
               <form>
                 <label>Add Todo</label>
                 <br />
-                <textarea rows="10" v-model="todo" required></textarea>
+                <textarea rows="11" v-model="todo" required></textarea>
                 <br />
                 <p id="cancel" @click="cancel">Cancel</p>
                 <p id="done" @click.prevent="submit">Done</p>
@@ -56,9 +56,9 @@ export default {
 
 #cancel {
   float: left;
-  margin-top: 8px;
-  margin-left: 10px;
-  font-family: SF Pro Text;
+  margin-top: 10px;
+  margin-left: 11px;
+  font-family: SFProText;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -68,9 +68,9 @@ export default {
 }
 
 #done {
-  margin-top: 8px;
-  margin-left: 92%;
-  font-family: SF Pro Text;
+  margin-top: 10px;
+  margin-left: 93%;
+  font-family: SFProText;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
